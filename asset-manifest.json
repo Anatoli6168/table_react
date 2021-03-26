@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/table_react/static/css/main.afd7172b.chunk.css",
-    "main.js": "/table_react/static/js/main.993f3967.chunk.js",
-    "main.js.map": "/table_react/static/js/main.993f3967.chunk.js.map",
+    "main.js": "/table_react/static/js/main.0d5af7c4.chunk.js",
+    "main.js.map": "/table_react/static/js/main.0d5af7c4.chunk.js.map",
     "runtime-main.js": "/table_react/static/js/runtime-main.610da284.js",
     "runtime-main.js.map": "/table_react/static/js/runtime-main.610da284.js.map",
-    "static/js/2.2c945f55.chunk.js": "/table_react/static/js/2.2c945f55.chunk.js",
-    "static/js/2.2c945f55.chunk.js.map": "/table_react/static/js/2.2c945f55.chunk.js.map",
+    "static/js/2.42e4412d.chunk.js": "/table_react/static/js/2.42e4412d.chunk.js",
+    "static/js/2.42e4412d.chunk.js.map": "/table_react/static/js/2.42e4412d.chunk.js.map",
     "index.html": "/table_react/index.html",
     "static/css/main.afd7172b.chunk.css.map": "/table_react/static/css/main.afd7172b.chunk.css.map",
-    "static/js/2.2c945f55.chunk.js.LICENSE.txt": "/table_react/static/js/2.2c945f55.chunk.js.LICENSE.txt"
+    "static/js/2.42e4412d.chunk.js.LICENSE.txt": "/table_react/static/js/2.42e4412d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.610da284.js",
-    "static/js/2.2c945f55.chunk.js",
+    "static/js/2.42e4412d.chunk.js",
     "static/css/main.afd7172b.chunk.css",
-    "static/js/main.993f3967.chunk.js"
+    "static/js/main.0d5af7c4.chunk.js"
   ]
 }
