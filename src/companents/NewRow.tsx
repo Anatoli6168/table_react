@@ -1,5 +1,4 @@
-//import { useFormik, Field } from 'formik';
-import { Formik, Form, Field } from 'formik';
+import { Formik, Form } from 'formik';
 import React, { useState } from 'react';
 import TextareaAutosize from 'react-textarea-autosize';
 import styled from 'styled-components'
@@ -77,19 +76,19 @@ export function NewRow({ setData }: Props) {
             validateOnChange={validationChange}
         >
             {(props) => (
-                
+
                 <StyledForm column={fields.length} onSubmit={props.handleSubmit}>
                     {
                         fields.map(field => (
-                                <Cell error={props.errors[field]} key={field}>
-                                    <StyledTextareaAutosize
-                                        name={field}
-                                        onChange={props.handleChange}
-                                        value={props.values[field]}
-                                        placeholder={props.errors[field]}
-                                        error={props.errors[field]}
-                                    />
-                                </Cell>
+                            <Cell error={props.errors[field]} key={field}>
+                                <StyledTextareaAutosize
+                                    name={field}
+                                    onChange={props.handleChange}
+                                    value={props.values[field]}
+                                    placeholder={props.errors[field]}
+                                    error={props.errors[field]}
+                                />
+                            </Cell>
                         ))
                     }
                     <Button type="submit" column={fields.length} onClick={() => setValidationChange(true)}>Create</Button>
