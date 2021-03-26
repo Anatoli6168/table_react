@@ -26,6 +26,8 @@ interface CellProps {
 const StyledCell = styled.div`
   padding: 0.2rem;
   font-weight: bold;
+  display: flex;
+  align-items: center;
   flex-basis: 20%;
   cursor: pointer;
   user-select: none;
