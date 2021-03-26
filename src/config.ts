@@ -26,4 +26,4 @@ export const searchs = [
     'id',
     'lastName'
 ] as const;
-export const url = 'http://www.filltext.com/?rows=502&id={number|1000}&firstName={firstName}&lastName={lastName}&email={email}&phone={phone|(xxx)xxx-xx-xx}';
+export const url = 'https://www.filltext.com/?rows=502&id={number|1000}&firstName={firstName}&lastName={lastName}&email={email}&phone={phone|(xxx)xxx-xx-xx}';
