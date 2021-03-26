@@ -51,7 +51,7 @@ function Table(props: Props) {
     const [list, setList] = useState(0)
     const [sort, setSort] = useState<Sort>({ name: null, reverse: true });
 
-/*     useEffect(() => { //Загрузка данных
+    useEffect(() => { //Загрузка данных
         async function fetchData() {
             const response = await fetch(url);
             const data = await response.json();
@@ -60,7 +60,7 @@ function Table(props: Props) {
         }
 
         fetchData();
-    }, []); */
+    }, []);
     useEffect(() => { //Фильтрация
         setCurrentData(() => {
             return data.filter(item => {
@@ -81,7 +81,7 @@ function Table(props: Props) {
             });
         }
     }, [sort])
-    //if (!data.length) return (<Loader />)
+    if (!data.length) return (<Loader />)
     return (
         <>
             <TableArea
